@@ -70,8 +70,8 @@
 		echo 'Array gerado: ';
 		imprimirArrayInteger($array_integer);
 		echo '<br>';
+		encontrarMaiorFrequencia($array_integer);
 
-		var_dump(array_count_values($array_integer));
 	}
 	function gerarArrayInteger($quantidade){
 		$array_integer = [];
@@ -92,6 +92,14 @@
 				echo $array_integer[$i].']';
 			}
 		};
+	}
+	function encontrarMaiorFrequencia($array_integer){
+		$count_array = array_count_values($array_integer);
+		$key
+
+		foreach ($count_array as $key => $value) {
+			# code...
+		}
 	}
 	espacoBr(4);
 
